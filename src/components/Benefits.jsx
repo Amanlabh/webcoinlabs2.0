@@ -10,7 +10,7 @@ const Benefits = () => {
       <div className="container relative z-2">
         <Heading
           className="md:max-w-md lg:max-w-2xl"
-          title="We provide the best digital services."
+          title="What we provide?"
         />
 
         <div className="flex flex-wrap gap-10 mb-10">
@@ -21,10 +21,9 @@ const Benefits = () => {
             }}
           >
             <div className="relative z-2 flex flex-col min-h-[22rem] p-[2.4rem] pointer-events-none">
-              <h5 className="h5 mb-5">Data Analytics</h5>
+              <h5 className="h5 mb-5">Content and Social Media Management</h5>
               <p className="body-2 mb-6 text-n-3">
-              Data analytics have been automated into mechanical processes and
-               algorithms that work over raw data for human consumption. .
+              Providing Full team of content writers including social media manager (Currently We are overbooked ).
               </p>
 
               <div className="flex items-center mt-auto">
@@ -57,10 +56,10 @@ const Benefits = () => {
             }}
           >
             <div className="relative z-2 flex flex-col min-h-[22rem] p-[2.4rem] pointer-events-none">
-              <h5 className="h5 mb-5">Website Growth</h5>
+              <h5 className="h5 mb-5">Token Launch Services</h5>
               <p className="body-2 mb-6 text-n-3">
-              Your website can help establish your business as a going concern, 
-              communicate your brand value proposition and it can convey professionalism.
+              Offering exclusive services for launching a memecoin, RWA, or other tokens. Also providing team to handle every aspect of the token launch.
+              
               </p>
 
               <div className="flex items-center mt-auto">
@@ -92,11 +91,9 @@ const Benefits = () => {
             }}
           >
             <div className="relative z-2 flex flex-col min-h-[22rem] p-[2.4rem] pointer-events-none">
-              <h5 className="h5 mb-5">Seo Ranking</h5>
+              <h5 className="h5 mb-5">Exclusive Alpha Group</h5>
               <p className="body-2 mb-6 text-n-3">
-              A good score indicates that your website 
-              is meeting the top quality standards for 
-              search engine optimization in the areas of technical SEO. 
+              Providing access to an exclusive alpha group for privileged insights and early information. (More details available upon private discussion)
               </p>
 
               <div className="flex items-center mt-auto">
@@ -128,10 +125,12 @@ const Benefits = () => {
             }}
           >
             <div className="relative z-2 flex flex-col min-h-[22rem] p-[2.4rem] pointer-events-none">
-              <h5 className="h5 mb-5">Web Development</h5>
+              <h5 className="h5 mb-5">Deal Flow Exchange</h5>
               <p className="body-2 mb-6 text-n-3">
-              Web development is the implementation of 
-              software and hardware to design, build and maintain a website. 
+              Partner with a deal flow exchange plat-
+form to promote within their community.
+Offer exclusive entries for their members
+or co-host the giveaway.
               </p>
 
               <div className="flex items-center mt-auto">
@@ -163,11 +162,11 @@ const Benefits = () => {
             }}
           >
             <div className="relative z-2 flex flex-col min-h-[22rem] p-[2.4rem] pointer-events-none">
-              <h5 className="h5 mb-5">Email Marketing</h5>
+              <h5 className="h5 mb-5">Technical Support</h5>
               <p className="body-2 mb-6 text-n-3">
-              Promoting your business through email marketing
-               gives your audience the chance to make a purchase
-                right from their phone or laptop. 
+              Collaboration with market makers, also
+keep close withtechnical experts for
+project development.
               </p>
 
               <div className="flex items-center mt-auto">
@@ -202,10 +201,12 @@ const Benefits = () => {
             
           >
             <div className="relative z-2 flex flex-col min-h-[22rem] p-[2.4rem] pointer-events-none">
-              <h5 className="h5 mb-5">Affiliate Marketing</h5>
+              <h5 className="h5 mb-5">Big Collaborative Giveaway</h5>
               <p className="body-2 mb-6 text-n-3">
-              Affiliate marketing involves referring a product or service by
-               sharing it on a blog, social media platforms, or website.
+              Organizing a massive giveaway on our
+100k+ Twitter and Telegram channels
+using Gleam including fun quiz to boost
+user interaction and engagement.
               </p>
 
               <div className="flex items-center mt-auto">

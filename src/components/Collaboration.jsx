@@ -12,30 +12,29 @@ const Collaboration = () => {
           <h2 className="h2 mb-4 md:mb-8">
           Work smarter,not harder. 
           </h2>
+         
+          
 
           <ul className="max-w-[22rem] mb-10 md:mb-14">
      
           <p className="body-2 mb-[2rem] text-n-3 flex items-center">
   <img src={check} width={24} height={24} alt="check" />
   <span className="ml-2">
- <h6 className="h6 mb-6">Digital Agency & Marketing:</h6>
-We are Data Driven Agency believe in Analytical Results with maximum customer acquisition. </span>
+ <h6 className="h6 mb-6">Funding:</h6>Provide long-term financial support. </span>
 </p>
 
 <p className="body-2 mb-[2rem] text-n-3 flex items-center">
   <img src={check} width={24} height={24} alt="check" />
   <span className="ml-2">
- <h6 className="h6 mb-6">Planning To Startup: </h6>
-Starting a business can require a
- lot of work, time and money. Follow this
-  guide to start your business plan off on the right foot. </span>
+ <h6 className="h6 mb-6">Assistance: </h6>
+ Offer strategic guidance
+and digital services </span>
 </p>
 
 <p className="body-2 mb-[2rem] text-n-3 flex items-center">
   <img src={check} width={24} height={24} alt="check" />
   <span className="ml-2">
-  <h6 className="h6 mb-6">  Content Management: </h6>
-Having a content management system for your website allows you to have control of your content.</span>
+  <h6 className="h6 mb-6">  KOL's Service: </h6>Promotion of projects through our extensive KOL network.</span>
 </p>
           </ul>
 

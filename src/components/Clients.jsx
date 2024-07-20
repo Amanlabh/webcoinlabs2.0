@@ -20,14 +20,14 @@ const Clients = () => {
     { src: '/path/to/logo13.png', alt: 'Logo 13' },
     { src: '/path/to/logo14.png', alt: 'Logo 14' },
     { src: '/path/to/logo15.png', alt: 'Logo 15' },
-    { src: '/path/to/logo15.png', alt: 'Logo 16' },
-    { src: '/path/to/logo15.png', alt: 'Logo 17' },
-    { src: '/path/to/logo15.png', alt: 'Logo 18' },
-    { src: '/path/to/logo15.png', alt: 'Logo 19' },
-    { src: '/path/to/logo15.png', alt: 'Logo 20' },
-    { src: '/path/to/logo15.png', alt: 'Logo 21' },
-    { src: '/path/to/logo15.png', alt: 'Logo 22' },
-    { src: '/path/to/logo15.png', alt: 'Logo 23' },
+    { src: '/path/to/logo16.png', alt: 'Logo 16' },
+    { src: '/path/to/logo17.png', alt: 'Logo 17' },
+    { src: '/path/to/logo18.png', alt: 'Logo 18' },
+    { src: '/path/to/logo19.png', alt: 'Logo 19' },
+    { src: '/path/to/logo20.png', alt: 'Logo 20' },
+    { src: '/path/to/logo21.png', alt: 'Logo 21' },
+    { src: '/path/to/logo22.png', alt: 'Logo 22' },
+    { src: '/path/to/logo23.png', alt: 'Logo 23' },
   ];
 
   const handleLoadMore = () => {
@@ -41,10 +41,11 @@ const Clients = () => {
       <div className="container relative z-2">
         <Heading className="" title="Clients and VC's" />
 
-        <div className="grid grid-cols-5 gap-6 mt-10">
+        <div className="grid grid-cols-3 gap-6 mt-10"> {/* Change to 3 columns */}
           {displayedLogos.map((logo, index) => (
-            <div key={index} className="client-logo rounded-lg bg-n-7 shadow-md p-4">
-              <img src={logo.src} alt={logo.alt} width={100} height={50} />
+            <div key={index} className="client-logo rounded-lg bg-n-7 shadow-md p-4 flex justify-center items-center">
+              {/* Increase width and height for logos */}
+              <img src={logo.src} alt={logo.alt} width={200} height={100} /> {/* Adjust size as needed */}
             </div>
           ))}
 

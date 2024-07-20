@@ -46,12 +46,10 @@ const Hero = () => {
             Kol
           </Button>
       <br /><br />
-      <Button white>
-      <a href="/pitchdesk.html" className="px-0 py-0 rounded-md bg-n-0 text-black hover:bg-n-0 inline-flex items-center">
-            Pitch Deck
-          </a>
-          </Button>
-    
+      <Button href="/Webcoin-Pitchdeck.pdf" download white>
+      Pitch Deck
+      </Button>
+
         </div>
         <div className="relative max-w-[23rem] mx-auto md:max-w-5xl xl:mb-24">
           <div className="relative z-1 p-0.5 rounded-2xl bg-conic-gradient">

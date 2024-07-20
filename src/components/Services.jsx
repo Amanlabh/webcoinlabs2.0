@@ -74,12 +74,10 @@ const Services = () => {
 
             <div className="p-4 bg-n-7 rounded-3xl overflow-hidden lg:min-h-[46rem]">
               <div className="py-12 px-4 xl:px-8">
-                <h4 className="h4 mb-4">KOL'S SERVICE</h4>
+                <h4 className="h4 mb-4">KOLs Marketing</h4>
                 <p className="body-2 mb-[2rem] text-n-3">
-                This Service includes management of KOLS, on-boarding them and helping
-                 shilling the project on daily basis Some glimpse of 
-                our Network We have over 1k+ KOL network with over 100+
-                 Youtubers from all over the world Our KOL network is....
+                Over 1,500 KOLs worldwide including 200+ YouTubers and more than 100 Twitter influencers for reaching
+                specific audiences through trusted voices.
                 </p>
 
                 <ul className="flex items-center justify-between">
