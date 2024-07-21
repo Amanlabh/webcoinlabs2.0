@@ -33,16 +33,13 @@ const Services = () => {
             </div>
 
             <div className="relative z-1 max-w-[17rem] ml-auto">
-              
               <h4 className="h4 mb-4">FULL INCUBATION</h4>
               <p className="body-1 mb-[1rem] text-n-1">
-              After a thorough research, If the project is
-               suitable & favourable for investment then we
-                Incubate the project which involves investment from our
-               capital also making Connection with our partner 
-               VC, Not only this it involves making connection with
+                After a thorough research, If the project is suitable & favourable
+                for investment then we Incubate the project which involves
+                investment from our capital also making Connection with our
+                partner VC, Not only this it involves making connection with
               </p>
-              
             </div>
 
             <Generating className="absolute left-4 right-4 bottom-4 border-n-1/10 border lg:left-1/2 lg-right-auto lg:bottom-8 lg:-translate-x-1/2" />
@@ -63,21 +60,21 @@ const Services = () => {
               <div className="absolute inset-0 flex flex-col justify-end p-8 bg-gradient-to-b from-n-8/0 to-n-8/90 lg:p-15">
                 <h4 className="h4 mb-4">ADVISORY SERVICE</h4>
                 <p className="body-2 mb-[3rem] text-n-3">
-                It includes making connections with several Tier 1 launchpad, Tier 1
-                 CEX If it GameFi Projects then we help in making Partnership with other
-                 GameFied project, Making connection with several Gaming Guild & Esports platform
+                  It includes making connections with several Tier 1 launchpad,
+                  Tier 1 CEX If it GameFi Projects then we help in making
+                  Partnership with other GameFied project, Making connection
+                  with several Gaming Guild & Esports platform
                 </p>
               </div>
-
-              
             </div>
 
             <div className="p-4 bg-n-7 rounded-3xl overflow-hidden lg:min-h-[46rem]">
               <div className="py-12 px-4 xl:px-8">
                 <h4 className="h4 mb-4">KOLs Marketing</h4>
                 <p className="body-2 mb-[2rem] text-n-3">
-                Over 1,500 KOLs worldwide including 200+ YouTubers and more than 100 Twitter influencers for reaching
-                specific audiences through trusted voices.
+                  Over 1,500 KOLs worldwide including 200+ YouTubers and more
+                  than 100 Twitter influencers for reaching specific audiences
+                  through trusted voices.
                 </p>
 
                 <ul className="flex items-center justify-between">
@@ -113,13 +110,19 @@ const Services = () => {
                   alt="Scary robot"
                 />
 
-                
                 <VideoBar />
               </div>
             </div>
           </div>
 
           <Gradient />
+        </div>
+        <br />
+
+        <div className="flex justify-center mt-10">
+          <button className="bg-gradient-to-r from-purple-800 to-pink-500 hover:from-pink-500 hover:to-purple-500 text-white font-bold py-4 px-8 rounded-full shadow-lg">
+            Contact Us
+          </button>
         </div>
       </div>
     </Section>

@@ -68,12 +68,12 @@ const Header = () => {
         </nav>
 
         <a
-          href="#signup"
-          className="button hidden mr-8 text-n-1/50 transition-colors hover:text-n-1 lg:block"
-        >
-          Connect
-        </a>
-        <Button className="hidden lg:flex" href="#login">
+  href="mailto:webcoinlabs@gmail.com" // Change to mailto link
+  className="button hidden mr-8 text-n-1/50 transition-colors hover:text-n-1 lg:block"
+>
+  Connect
+</a>
+        <Button className="hidden lg:flex" href="https://t.me/TheWebcoinLabs">
           Contact
         </Button>
 
